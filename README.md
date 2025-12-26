@@ -13,7 +13,8 @@ Research-on-the-Identification-Mechanism-of-Altmetrics-Data-for-Sina-Weibo/
 ├── README.md # 项目说明文档
 ├── data/ # 数据集目录
 │ ├── final_weibo_articles.json # Altmetric微博数据集
-│ └── 指向论文的微博_已转换.csv # 大模型微博数据集
+│ ├── 大模型论文_筛选后数据_链接已替换.csv # 实际为大语言模型主题的微博数据集
+│ └── 指向论文的微博_已转换.csv # 大模型关键词搜索得到的微博数据集
 ├── output/ # 结果输出目录
 ├── weibo_paper_classifier/ # 源代码目录
 │ ├── classifier.py # 核心分类器类
@@ -55,7 +56,7 @@ python main.py
 ```text
 请选择要运行的数据集:
 1. Altmetric数据集 (训练/测试)
-2. 大模型微博数据集 (验证)
+2. 大模型微博数据集 (验证) # 使用文件“指向论文的微博_已转换.csv”
 3. 两者都运行
 ```
 
