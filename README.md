@@ -32,7 +32,8 @@ output/altmetric/
 └── altmetric_confidence_distribution.png # 可信度分布图
 ```
 
-```output/weibo/
+```
+output/weibo/
 ├── weibo_link_classification.csv        # 详细分类结果
 ├── weibo_aggregated_results.csv         # 聚合统计结果
 └── weibo_metrics.json                   # 性能指标
