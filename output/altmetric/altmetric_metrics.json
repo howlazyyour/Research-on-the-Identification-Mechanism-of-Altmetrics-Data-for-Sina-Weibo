@@ -1,0 +1,11 @@
+{
+  "total": 2047,
+  "detected": 2009,
+  "accuracy": 0.9814362481680508,
+  "confidence_distribution": {
+    "high": 1849,
+    "medium": 150,
+    "none": 39,
+    "low": 10
+  }
+}
