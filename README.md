@@ -28,8 +28,7 @@ Research-on-the-Identification-Mechanism-of-Altmetrics-Data-for-Sina-Weibo/
 output/altmetric/
 ├── altmetric_link_classification.csv    # 详细分类结果
 ├── altmetric_aggregated_results.csv     # 聚合统计结果
-├── altmetric_metrics.json               # 性能指标
-└── altmetric_confidence_distribution.png # 可信度分布图
+└── altmetric_metrics.json               # 性能指标
 ```
 
 ```
